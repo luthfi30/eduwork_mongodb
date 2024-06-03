@@ -3,14 +3,14 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const session = require("express-session");
-const cors = require("cors");
-const corsConfig = {
-  origin: "*",
-  credential: true,
-  methods: ["GET", "POST", "PUT", "DELETE"],
-};
-app.options("*", cors(corsConfig));
-app.use(cors(corsConfig));
+// const cors = require("cors");
+// const corsConfig = {
+//   origin: "*",
+//   credential: true,
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+// };
+// app.options("*", cors(corsConfig));
+// app.use(cors(corsConfig));
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 4000;
 
