@@ -9,11 +9,8 @@
   "routes": [
     {
       "src": "/(.*)",
-<<<<<<< HEAD
+
       "dest": "/main.js"
-=======
-      "dest": "/index.js"
->>>>>>> 2be0830eca79f1f010d86f4aacda1dc6c550eea3
     }
   ]
 }
